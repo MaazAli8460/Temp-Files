@@ -1,0 +1,6 @@
+SRCS:=$(wildcard *.cpp)
+OBJS=$(SRCS:.cpp=.o)
+
+all:
+	g++ $(SRCS) -o $(OBJS) -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system
+	./$(OBJS)
