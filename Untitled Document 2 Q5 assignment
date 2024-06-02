@@ -1,0 +1,296 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	string choice,choice1,choice2;
+	bool flag;
+	cout<<"\nStarting General Diagnosis Program.-----";
+	cout<<"\nRecoding symptoms information -----";
+	
+	cout<<"\nRebot the server---";
+	cout<<"\nDoes the condition still exist (y/n):";
+	cin>>choice;
+	
+	if (choice=="y" || choice=="yes" || choice=="Y" || choice=="YES")
+	{
+		cout<<"\nIs this newly installed server (y/n):";
+		cin>>choice;
+		if(choice=="y" || choice=="yes" || choice=="Y" || choice=="YES")
+		{
+			cout<<"\nReset any components that may have come lose during shipping and reboot the server.";		
+			cout<<"\nDoes the condition still exists? (y/n):";
+			cin>>choice1;
+			if(choice1=="n" || choice1=="no" || choice1=="N" || choice1=="NO" )
+			flag=true;
+			else
+			{
+			cout<<"\nWere options added or configuration changed? (y/n):";
+			cin>>choice2;
+			if(choice2=="y" || choice2=="yes" || choice2=="Y" || choice2=="YES")
+			{
+				cout<<"\nIsolate what has changed.Verify it was installed correctly.Restore server to last known working state or orignal shipped configuration.\nDoes the condition still exists? (y/n):";
+				cin>>choice;
+				
+				if(choice=="n" || choice=="no" || choice=="N" || choice=="NO" ) 
+				flag=true;
+				
+				else
+				{
+				cout<<"\nIsolate and minimize the memory configuration.\nDoes the condition still exists? [case sentsive] (y/n): ";
+					cin>>choice;
+					
+					if (choice=="n")
+						flag=true;
+					else
+					{
+						cout<<"\nBreak server down to minimal configuration.\nDoes the condition still exists? [case sentsive] (y/n):";
+						cin>>choice;
+						
+						if (choice=="n")
+						{
+							cout<<"\nAdd one part at a time back to full configuration to isolate the faulty component.\nDoes the condition still exist? [case sentsive] (y/n):";
+							cin>>choice;
+							if(choice=="n")
+								flag=true;
+								
+							else
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+						}
+						else
+						{
+							cout<<"\nTroubleshoot or replace basic server spare parts.\nDoes the condition still exits? [case sentsive] (y/n):";
+							cin>>choice;
+							
+							if(choice=="y")
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+							else
+							{
+								cout<<"\nRecord symptoms and error information on Repair Tag if sending back a failed part.";
+								flag=true;
+							}
+						}
+					
+					
+					}
+				}
+				
+			}
+			else
+			{
+			if(choice2=="n" || choice2=="no" || choice2=="N" || choice2=="NO")
+			cout<<"\nCheck for notifications.\nDownload the latest software and firmware updates from HP website.";//check for errors and correct the program
+			else
+			flag=false;
+			
+			
+			cout<<"\n Does the condition still exists? [case sentsive] (y/n): ";
+				cin>>choice;
+				
+			 if (choice=="n")
+			 	flag=true;
+				
+				else
+				{
+					cout<<"\nIsolate and minimize the memory configuration.\nDoes the condition still exists? [case sentsive] (y/n): ";
+					cin>>choice;
+					
+					if (choice=="n")
+						flag=true;
+					else
+					{
+						cout<<"\nBreak server down to minimal configuration.\nDoes the condition still exists? [case sentsive] (y/n):";
+						cin>>choice;
+						
+						if (choice=="n")
+						{
+							cout<<"\nAdd one part at a time back to full configuration to isolate the faulty component.\nDoes the condition still exist? [case sentsive] (y/n):";
+							cin>>choice;
+							if(choice=="n")
+								flag=true;
+								
+							else
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+						}
+						else
+						{
+							cout<<"\nTroubleshoot or replace basic server spare parts.\nDoes the condition still exits? [case sentsive] (y/n):";
+							cin>>choice;
+							
+							if(choice=="y")
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+							else
+							{
+								cout<<"\nRecord symptoms and error information on Repair Tag if sending back a failed part.";
+								flag=true;
+							}
+						}
+					
+					
+					}
+				}
+
+			}
+			}
+			}
+			else
+			{
+			cout<<"\nReset any components that may have come lose during shipping and reboot the server.";		
+			cout<<"\nDoes the condition still exists? (y/n):";
+			cin>>choice1;
+			if(choice1=="n" || choice1=="no" || choice1=="N" || choice1=="NO" )
+			flag=true;
+			else
+			{
+			cout<<"\nWere options added or configuration changed? (y/n):";
+			cin>>choice2;
+			if(choice2=="y" || choice2=="yes" || choice2=="Y" || choice2=="YES")
+			{
+				cout<<"\nIsolate what has changed.Verify it was installed correctly.Restore server to last known working state or orignal shipped configuration.\nDoes the condition still exists? (y/n):";
+				cin>>choice;
+				
+				if(choice=="n" || choice=="no" || choice=="N" || choice=="NO" ) 
+				flag=true;
+				
+				else
+				{
+				cout<<"\nIsolate and minimize the memory configuration.\nDoes the condition still exists? [case sentsive] (y/n): ";
+					cin>>choice;
+					
+					if (choice=="n")
+						flag=true;
+					else
+					{
+						cout<<"\nBreak server down to minimal configuration.\nDoes the condition still exists? [case sentsive] (y/n):";
+						cin>>choice;
+						
+						if (choice=="n")
+						{
+							cout<<"\nAdd one part at a time back to full configuration to isolate the faulty component.\nDoes the condition still exist? [case sentsive] (y/n):";
+							cin>>choice;
+							if(choice=="n")
+								flag=true;
+								
+							else
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+						}
+						else
+						{
+							cout<<"\nTroubleshoot or replace basic server spare parts.\nDoes the condition still exits? [case sentsive] (y/n):";
+							cin>>choice;
+							
+							if(choice=="y")
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+							else
+							{
+								cout<<"\nRecord symptoms and error information on Repair Tag if sending back a failed part.";
+								flag=true;
+							}
+						}
+					
+					
+					}
+				}
+				
+			}
+			else
+			{
+			if(choice2=="n" || choice2=="no" || choice2=="N" || choice2=="NO")
+			cout<<"\nCheck for notifications.\nDownload the latest software and firmware updates from HP website.";//check for errors and correct the program
+			else
+			flag=false;
+			
+			
+			cout<<"\n Does the condition still exists? [case sentsive] (y/n): ";
+				cin>>choice;
+				
+			 if (choice=="n")
+			 	flag=true;
+				
+				else
+				{
+					cout<<"\nIsolate and minimize the memory configuration.\nDoes the condition still exists? [case sentsive] (y/n): ";
+					cin>>choice;
+					
+					if (choice=="n")
+						flag=true;
+					else
+					{
+						cout<<"\nBreak server down to minimal configuration.\nDoes the condition still exists? [case sentsive] (y/n):";
+						cin>>choice;
+						
+						if (choice=="n")
+						{
+							cout<<"\nAdd one part at a time back to full configuration to isolate the faulty component.\nDoes the condition still exist? [case sentsive] (y/n):";
+							cin>>choice;
+							if(choice=="n")
+								flag=true;
+								
+							else
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+						}
+						else
+						{
+							cout<<"\nTroubleshoot or replace basic server spare parts.\nDoes the condition still exits? [case sentsive] (y/n):";
+							cin>>choice;
+							
+							if(choice=="y")
+							{
+								cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+								return 0;
+							}
+							else
+							{
+								cout<<"\nRecord symptoms and error information on Repair Tag if sending back a failed part.";
+								flag=true;
+							}
+						}
+					
+					
+					}
+				}
+
+			}
+			}
+			}
+			}
+			else
+			flag=true;
+			
+		if(flag==true)
+	{
+		cout<<"\nRecord action taken for future problems.\nCongratulations your problem is solved.";
+		return 0;
+		
+	}
+	
+	
+	else
+		{cout<<"\nEnsure the following information is available:\n-Survey configuration snapshots.\n-Os event log file.\nFull crash dump.\nCall HP service provider.";
+		return 0;}
+			
+			
+			
+	return 0;			
+}

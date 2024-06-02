@@ -1,0 +1,184 @@
+						seats=adults;
+						/*switch(seats)
+						{
+						case 1:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats;
+							break;
+							
+						case 2:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1;
+							break;
+							
+						case 3:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2;
+							break;
+						
+						case 4:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3;
+							break;
+						
+						case 5:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4;
+							break;
+						
+						case 6:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5;
+							break;
+						
+						case 7:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats +6;
+							break;
+						
+						case 8:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats+6										<<" :"<<seats+7;
+							break;
+
+						default:
+						return 0;	
+						}*/
+						
+						
+						
+						
+												seats=adults+child;
+						
+						/*switch(seats)
+						{
+						case 3:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<rand()%s+2<<" :"<<rand()%s+3;
+						break;
+						
+						case 4:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3;
+						break;
+						
+						case 5:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4;
+						break;
+						
+						case 6:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5;
+						break;
+						
+						case 7:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats +6;
+						break;
+						
+						case 8:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats+6												<<" :"<<seats+7;
+						break;
+						
+						case 9:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats+6												<<" :"<<seats+7<<" :"<<seats+8;
+						break;
+						
+						default:
+						return 0;	
+						}*/
+						
+						
+												seats=adults+child;
+						
+						switch(seats)
+						{
+						case 3:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<rand()%s+2<<" :"<<rand()%s+3;
+						break;
+						
+						case 4:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3;
+						break;
+						
+						case 5:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4;
+						break;
+						
+						case 6:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5;
+						break;
+						
+						case 7:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats +6;
+						break;
+						
+						case 8:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats+6												<<" :"<<seats+7;
+						break;
+						
+						case 9:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats+6												<<" :"<<seats+7<<" :"<<seats+8;
+						break;
+						
+						default:
+						return 0;	
+						}
+						
+												seats=adults;
+						switch(seats)
+						{
+						case 1:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats;
+							break;
+							
+						case 2:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1;
+							break;
+							
+						case 3:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2;
+							break;
+						
+						case 4:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3;
+							break;
+						
+						case 5:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4;
+							break;
+						
+						case 6:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5;
+							break;
+						
+						case 7:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats +6;
+							break;
+						
+						case 8:
+							seats=rand()%s+1;
+							cout<<"\n"<<y<<" ENCLOSURE Seats:"<<seats<<" :"<<seats+1<<" :"<<seats+2<<" :"<<seats+3<<" :"<<seats+4<<" :"<<seats+5<<" :"<<seats+6										<<" :"<<seats+7;
+							break;
+
+						default:
+						return 0;	
+						}
+			

@@ -1,0 +1,6 @@
+total 4
+-rw-rw-r-- 1 maaz maaz    0 جنوری  31 11:21 A
+-rw-rw-r-- 1 maaz maaz    0 جنوری  31 11:21 fake-details.txt
+-rw-rw-r-- 1 maaz maaz    0 جنوری  31 11:21 null-image.png
+-rw-rw-r-- 1 maaz maaz    0 جنوری  31 11:21 TextFiles.txt
+drwxrwxr-x 2 maaz maaz 4096 جنوری  31 10:14 within-A

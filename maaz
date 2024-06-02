@@ -1,0 +1,51 @@
+/*Maaz Ali
+  22i-1042
+  Assignment#03*/
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int rent,units,inc,maint,total,red,count;
+	cout<<"\nEnter total units:";
+	cin>>units;
+	cout<<"\nEnter rent per unit:";
+	cin>>rent;
+	cout<<"\nEnter maintaninence cost:";
+	cin>>maint;
+	cout<<"\nEnter increase in rent that results in a vacant unit:";
+	cin>>inc;
+	
+	total=units*rent;
+	cout<<endl<<total<<endl;
+	total=total-(units*maint);
+	cout<<total<<endl;
+	
+	for(int i=1;i<=units;i++)
+	{
+		units--;
+		rent=rent+inc;
+	
+	
+	for(int j=1;j<=units;j++)
+	{
+		red=red+rent;
+		red=red-maint;
+		
+		if(red<total)
+		goto m1;
+		
+		//else
+		//continue;
+	}
+	}
+	
+	m1:
+	if(total>red)
+	cout<<"\nTotal="<<total<<endl<<units<<endl<<rent;
+	
+	else
+	cout<<"\nTotal="<<red<<" Total appartments rented"<<units<<endl<<"Amount of rent="<<rent;
+	
+	return 0;
+}

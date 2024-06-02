@@ -1,0 +1,2 @@
+g++ tests-A2_Evaluation.cpp -lgtest -lpthread -o test
+
